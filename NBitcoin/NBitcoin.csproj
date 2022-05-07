@@ -6,9 +6,9 @@
 		<Description>The C# Bitcoin Library</Description>
     <PackageIcon>icon.png</PackageIcon>
 		<PackageTags>bitcoin</PackageTags>
-		<PackageProjectUrl>https://github.com/MetacoSA/NBitcoin</PackageProjectUrl>
+		<PackageProjectUrl>https://github.com/PoWx-Org/NOpticalBitcoin</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-		<RepositoryUrl>https://github.com/MetacoSA/NBitcoin</RepositoryUrl>
+		<RepositoryUrl>https://github.com/PoWx-Org/NOpticalBitcoin</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
 	</PropertyGroup>
 	<PropertyGroup>

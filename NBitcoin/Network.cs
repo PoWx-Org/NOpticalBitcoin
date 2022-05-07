@@ -502,6 +502,7 @@ namespace NBitcoin
 		byte[]? _genesis;
 		public uint256 HashGenesisBlock
 		{
+			// TODO: Debug the implementation
 			get
 			{
 				if (_HashGenesisBlock == null)
@@ -2318,6 +2319,10 @@ namespace NBitcoin
 			nDefaultPort = 18444;
 			nRPCPort = 18443;
 			//strDataDir = "regtest";
+			uint256 hash = uint256.Parse("0x0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206");
+			uint256 consensusHash = consensus.HashGenesisBlock;
+			
+			assert(hash == consensusHash);
 			assert(consensus.HashGenesisBlock == uint256.Parse("0x0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206"));
 
 #if !NOSOCKET
